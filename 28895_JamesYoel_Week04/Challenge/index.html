@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+	<link rel="stylesheet" type="text/css" href="main.css" media="screen">
+</head>
+<body onload="onDocumentFinish()">
+	<div class="header">
+		<div class="row" style="margin: 0px; padding: 2px; font-size: 24px; font-weight: bold;">
+			<div id="hero_name" class="col-4" style="text-align: center;"></div>
+			<div id="hero_lvl" class="col-4" style="text-align: center;"></div>
+			<div id="recruit" class="col-4" style="text-align: center;"></div>
+		</div>
+		<div class="training" onclick="LevelUp()">
+			<div style="margin: 0px;">Training</div>
+		</div>
+	</div>
+	</div>
+	<div class="form">
+		<form id="submit">
+			<label for="Name">Name</label>
+			<input type="text" name="name" id="Name" required />
+			<label for="Level">Level</label>
+			<input type="number" name="level" id="Level" min="1" required/>
+			<label for="Category">Class</label>
+			<select name="class" id="class_option" required>
+				<option>Choose Class</option>
+			</select>
+			<input type="submit" id="button_submit" Value="Recruit"/>
+		</form>
+		<div>
+			<table id="recruit_table" style="margin-top: 30px;">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Level</th>
+						<th>Class</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="footer col-12" style="font-size: 24px; font-weight: bold;"><p>Created By [James Yoel] - [00000028895]</p></div>
+	<script type="text/javascript" src="prog.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+1. Service adalah sebuah cara untuk komponen-komponen dalam ts yang dapat berbagi informansi di antara kelas-kelas yang tidak saling kenal.
+   Perbedaanya dari class adalah class merupakan suatu kerangka dasar atau suatu gambaran umum. Berbeda dengan Service.
+
+2. Urutan dalam routing adalah suatu cara untuk memungkinkan Anda untuk menampilkan berbagai komponen dan data kepada pengguna berdasarkan di mana pengguna berada dalam aplikasi. 
+   Router memungkinkan navigasi dari satu tampilan ke tampilan berikutnya

@@ -1,0 +1,4 @@
+1. 'Const' harus terdeklarasi dengan value, sedangkan 'let' dan 'var' tidak harus terdeklarasi dengan value.
+2. Dalam scope yang sama, value 'var' dan 'let' dapat diubah, sedangkan 'const' tidak bisa.
+3. 'var' masuk kedalam global scope, sedangkan 'let' dan 'const' masuk kedalam block scope. Yang memiliki arti bahwa saat value 'var' diubah, maka global scopenya uga akan terubah.
+4. Saat hoisting, deklarasi 'var' selalu ditempatkan di atas pada saat compile meskipun 'var' tersebut berada di bawah. Sedangkan 'let' dan 'const' tidak ter hoisting dimana mereka harus dideklarasi sebelum penggunaan.

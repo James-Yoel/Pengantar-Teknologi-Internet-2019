@@ -1,0 +1,57 @@
+/*TEXT*/
+.top{
+	text-align: center;
+	width: 70%;
+}
+
+/*TABLE*/
+table{
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 70%;
+}
+
+td,th{
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even){
+	background-color: #dddddd;
+}
+
+/*CARD*/
+.card {
+ 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 70%;
+  	padding:20px;
+}
+
+.hidden{
+	display: none !important;
+}
+
+/*BUTTON*/
+.button-posts{
+	background-color: #4CAF50; /*Green*/
+	border: none;
+	color: white;
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.button-comments{
+	background-color: #008CBA;
+	border: none;
+	color: white;
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}

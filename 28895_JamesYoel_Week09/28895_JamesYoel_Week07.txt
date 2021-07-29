@@ -1,0 +1,74 @@
+1. Kelebihan :
+   - Kompatibel dengan hampir seluruh browser.
+   - jQuery telah digunakan oleh website-website raksasa.
+   - Kompatibel dengan seluruh versi CSS (dari CSS 1 sampai CSS 3).
+   - Dokumentasi dan tutorialnya lengkap, bisa langsung dilihat di http://jquery.com.
+   - Didukung oleh banyak komunitas.
+   - Disupport oleh plugin yang lengkap.
+   - Filenya hanya satu dan ukurannya relatif kecil, sekitar 20kb.
+   - Open source atau Free.
+   - jQuery lebih diminati oleh para developer web saat ini.
+   - Mempermudah akses dan manipulasi elemen tertentu pada dokumen.
+   - Mempermudah modifikasi/perubahan tampilan halaman web.
+   - Mempersingkat Ajax (Asynchronous Javacsript and XML).
+   - Memiliki API (Application Programming Interface).
+   - Mampu merespon interaksi antara user dengan halaman web dengan lebih cepat.
+   - Menyediakan fasilitas untuk membuat animasi sekelas Flash dengan mudah. 
+
+   Kekurangan :
+   - Meskipun diklaim jquery memiliki beban kerja yang ringan (load CPU dan RAM) untuk browser, tetap saja lebih ringan (cepat di-load) website yang tidak menggunakan jquery, alias HTML murni.
+   - Dari sisi server hosting pun, CPU dan RAM harus mengalokasikan resource yang mereka miliki untuk menangani request terhadap jquery. Pada level tertentu request yang sangat banyak (sangat-sangat banyak) akan membebani server. 
+     Solusi: host jquery pada situs lain, seperti Google yang menyediakan request jquery dari servernya. 
+
+2. const Url = 'https://www.budi,com/info-diri';
+   const data={
+	nama:"Budi",
+	alamat:"Jl Merpati",
+        Pekerjaan:"Programmer"
+   }
+   $('.button').click(function(){
+	$.post(Url,data);
+   }
+
+3. Callback Function: 
+   Fungsi yang dieksekusi setelah efeknya selesai. 
+   Fungsi panggilan balik dilewatkan sebagai argumen ke metode efek dan mereka biasanya muncul sebagai argumen terakhir dari metode.
+
+4a. .children():
+    Memungkinkan kita untuk mencari melalui anak-anak elemen-elemen ini di pohon DOM dan membangun objek jQuery baru dari elemen yang cocok.
+    cth: 
+    <script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("p").slideToggle("slow");
+            alert("The slide toggle effect has completed.");
+        });   
+    });
+    </script>
+    
+4b. $('.budi').html() dan $('#wati').val()
+    $('.budi').html(): Menetapkan atau mengembalikan konten elemen yang dipilih (termasuk markup HTML) yang berada pada attribut dengan class = "budi".
+    $('#wati').val() : Menetapkan atau mengembalikan nilai bidang formulir pada atribut dengan id = "wati".
+    cth:
+    <script>
+    $('.budi').html(<p>Hai, I'm Budi</p>);
+    $('#wati').val("Hello, I'm Wati");
+    </script>
+
+4c. .fadeIn() dan .fadeOut()
+    .fadeIn() : Memunculkan sesuatu yang sebelum tidak tampak yang bisa menggunakan waktu untuk menentukan transisi kemunculan.
+    .fadeOut(): Menghilangkan sesuatu menjadi tidak tampak yang bisa menggunakan waktu untuk menentukan transisi kelenyapan.
+    cth:
+    <script>
+    $("p:first").fadeOut(2000).fadeIn();
+    </script>
+
+4d. .promise() :
+    Mengembalikan promise yang dihasilkan secara dinamis yang diselesaikan setelah semua tindakan dari jenis tertentu yang terikat pada koleksi, diantrekan atau tidak, telah berakhir.
+    <script>
+    function doWork() {
+    var d = $.Deferred();
+    //fungsi asynchronous
+    return d.promise();
+    }
+    </script>

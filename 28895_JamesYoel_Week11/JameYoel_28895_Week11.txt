@@ -1,0 +1,12 @@
+Pengertian: 
+ - Pingendo merupakan software Bootstrap Editor yang di buat untuk memudahkan pengguna framework bootstrap.
+ - Software Pingendo bisa digunakan untuk membuat Landing page, Blog design, WordPress Theme, dan lain-lain yang berhubungan dengan html.
+
+Fitur Pingendo :
+ - Menggunakan fitur drag and drop.
+ - Design Responive.
+ - Mengedit design langsung tanpa membuka file css.
+ - Support dengan Bootstrap dan FonntAwesome.
+
+Saat hasil layout Pingendo akan disimpan, file tersebut hanya akan disimpan dalam 1 html tanpa ada CSS dll.
+Hal tersebut dikarenakan CSS dll tersebut menggunakan CDN yang dimana harus terhubung dengan internet terlebih dahulu atau mengdownload file-file CDN terlebih dahulu agar layout yang dibuat dapat tampil dengan sempurna.

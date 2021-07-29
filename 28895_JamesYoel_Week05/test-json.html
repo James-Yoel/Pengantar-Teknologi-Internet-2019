@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mari Kenalan denagn JSON</title>
+	<script type="text/javascript">
+		//Menyimpan data objek dalam bentuk JSON
+		let mehasiswa = {//membuat objek
+			nama: "John",
+			nim: "00000000001",
+			ukm: {
+				utama: "jcafe",
+				kedua: "Ulson"
+			}
+		}
+		let myJSON = JSON.stringify(mahasiswa);// mengubah objek menjadi JSON
+		console.log(myJSON); //menampilkan data yang diubah menjadi JSON pada console
+
+		//Me-retrieve data JSON
+		let mymahasiswa = JSON.parse(myJSON); //parsing JSON menjadi objek
+		console.log(mymahasiswa.nama + '('+mymahasiswa.nim+') memilih '+ mymahasiswa.ukm.utama+' Sebagai UKM Utamanya.');
+	</script>
+</head>
+<body>
+
+</body>
+</html>

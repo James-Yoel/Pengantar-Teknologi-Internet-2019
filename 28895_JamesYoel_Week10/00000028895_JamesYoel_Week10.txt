@@ -1,0 +1,41 @@
+1. Grid System pada Bootstrap merupakan pengaturan ukuran yang di tampilkan pada monitor.
+   Grid systemm berfungsi untuk membuat pengaturan untuk lebar dari masing-masing komponen web sehingga kita dapat dengan bebas mengatur ke-responsivan halaman website yang kita buat dengan bootstrap.
+   Bootstrap juga memiliki beberapa class grid yang masing-masingnya memiliki kegunaannya masing-masing. 
+
+2. a. Typography = Menggunakan Helvetica Neue, Helvetica, Arial dan Sans-serif untuk jenis font bawaan. Ini semua adalah standar font dan juga sebagai bawaan dalam semua komputer.
+   b. Heading = Semua 6 tag heading mempunyai style dalam Bootstrap 4 dengan font weight sebesar 500, line height sebesar 1.1 dan berikut adalah urutan sizenya:
+		h1 - 2.25rem atau 36px.	
+		h2 - 1.87rem atau 30px.
+		h3 - 1.5rem atau 24px.
+		h4 - 1.1rem atau 18px.
+		h5 - 0.87rem atau 14px.
+		h6 - 0.75rem atau 12px.
+   c. List Groups : Menawarkan dukungan dan style untuk tiga jenis list: ordered “ol”, unordered “ul” dan definition list “dl”. Di bawah adalah daftar class yang kamu dapat pakai untuk list:
+		    List-unstyled class - menghapus list-style dan margin-left setiap list.
+	            List-inline class - menampilkan list dalam sebuah pola inline dan menambahkan beberapa padding.
+                    Dl-horizontal class - menampilkan dl secara horizontal.
+   d. Tables : Menangani table layout dalam cara yang lebih baik dari versi sebelumnya. Ada lima opsi table class yang kita dapat tambahkan untuk merubah tampilan sesuai dengan keinginan.
+	       Table-striped - selang-seling warna background pada setiap baris.
+	       Table-bordered - menambahkan border abu-abu disekeliling table.
+	       Table-hover - menambahkan background hover pada setiap baris.
+               Table-sm - mengurangi nilai padding setiap baris.
+	       Table-inverse - membalikan warna backround pada table menjadi gelap.
+    e. Jumbotron : Komponen yang ringan dan fleksibel yang secara opsional dapat memperluas seluruh viewport untuk menampilkan pesan pemasaran utama di situs Anda.
+    f. Pagination : Dokumentasi dan contoh untuk menunjukkan pagination untuk menunjukkan serangkaian konten terkait ada di beberapa halaman.
+    g. Alerts : Berikan pesan umpan balik kontekstual untuk tindakan pengguna biasa dengan beberapa pesan peringatan yang tersedia dan fleksibel.
+    h. Dropdowns : Alihkan overlay kontekstual untuk menampilkan daftar tautan dan lainnya dengan plugin dropdown Bootstrap.
+    i. Badges : Dokumentasi dan contoh untuk lencana, komponen penghitungan dan pelabelan kecil Bootstrap.
+    j. Collapse : Alihkan visibilitas konten di proyek Anda dengan beberapa kelas dan plugin JavaScript Bootstrap.
+
+3. a. Dropdowns     : Melalui atribut data atau JavaScript, plugin dropdown mengubah konten yang tersembunyi (menu dropdown) dengan mengaktifkan kelas .open pada item daftar induk.
+      (dropdown.js)   Pada perangkat seluler, membuka dropdown menambahkan latar belakang .dropdown sebagai area tap untuk menutup menu dropdown ketika mengetuk di luar menu, persyaratan untuk dukungan iOS yang tepat.
+                      Ini berarti bahwa beralih dari menu dropdown terbuka ke menu dropdown yang berbeda memerlukan ketukan tambahan pada ponsel.
+   b. ScrollSpy      : Plugin ScrollSpy adalah untuk secara otomatis memperbarui target nav berdasarkan posisi gulir. 
+      (scrollspy.js)   Gulir area di bawah navbar dan saksikan perubahan kelas aktif. 
+                       Sub item dropdown akan disorot juga.
+                       Tidak peduli metode pelaksanaannya, scrollspy membutuhkan penggunaan position: relative; pada elemen Anda memata-matai. 
+                       Dalam kebanyakan kasus, ini adalah <body>. 
+                       Saat scrollspying pada elemen selain dari <body>, pastikan untuk mengatur ketinggian dan overflow-y: scroll; applied.
+   c. Togglable tabs : Tambahkan fungsionalitas tab dinamis yang cepat untuk transisi melalui panel konten lokal, bahkan melalui menu dropdown. Nested tab tidak didukung.
+      (tab.js)         Anda dapat mengaktifkan navigasi tab atau pil tanpa menulis JavaScript apa pun dengan hanya menentukan data-toggle = "tab" atau data-toggle = "pill" pada suatu elemen. 
+                       Menambahkan kelas nav dan nav-tab ke tab ul akan menerapkan gaya tab Bootstrap, sementara menambahkan kelas nav dan nav-pil akan menerapkan pil styling.                  
